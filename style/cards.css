@@ -1,0 +1,24 @@
+.content{
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.contentMovie{
+    display: flex;
+    margin-bottom: 5vh;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+.contentMovie:hover{
+    transform: scale(1.05);
+    transition: transform .5s ease-in-out;
+}
+.contentMovie__image{
+    padding: 5px;
+
+}
+.contentMovie__info{
+    width: 100%;
+}

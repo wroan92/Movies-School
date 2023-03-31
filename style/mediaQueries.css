@@ -1,0 +1,17 @@
+@media screen and (min-width: 480px) {
+  .mainNav {
+    all: unset;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+  }
+  .hamburgerIcon {
+    display: none;
+  }
+}
+@media screen and (min-width: 600px) {
+  .content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
